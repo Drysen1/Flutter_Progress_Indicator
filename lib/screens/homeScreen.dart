@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children:[
           SizedBox(height: 50,),
-          _pieChartRow(),
+          _circularProgressRow(),
           SizedBox(height: 50,),
           _linearProgressRow(),
           SizedBox(height: 50,),
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _pieChartRow(){
+  Widget _circularProgressRow(){
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
